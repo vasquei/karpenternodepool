@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: karpenter-small-3gi-1-ocpu
+  namespace: arg-wkshop
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: karpenter-small-3gi-1-ocpu
+  template:
+    metadata:
+      labels:
+        app: karpenter-small-3gi-1-ocpu
+    spec:
+      tolerations:
+        - key: "oci.oraclecloud.com/oke-is-preemptible"
+          operator: "Exists"
+          effect: "NoSchedule"
+
+      containers:
+        - name: karpenter-small-3gi-1-ocpu
+          image: registry.k8s.io/pause:3.9
+          resources:
+            requests:
+              cpu: "2000m"
+              memory: "3Gi"
