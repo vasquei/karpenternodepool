@@ -27,5 +27,5 @@ spec:
         subnetId: ocid1.subnet.oc1.us-chicago-1.aaaaaaaaxiqllzu5kkxvlbcqepmyy5av25ofw7bausqt63uatkz2ttzcb45q  
     secondaryVnicConfigs:
       - subnetConfig:
-          subnetId: ocid1.subnet.oc1.us-chicago-1.aaaaaaaaxiqllzu5kkxvlbcqepmyy5av25ofw7bausqt63uatkz2ttzcb45q 
+          subnetId: ocid1.subnet.oc1.us-chicago-1.aaaaaaaaan4me3vfgevpliywmam266mtny3cml4wnebvqwbzmf5bhpvm3mfa 
         ipCount: 16
