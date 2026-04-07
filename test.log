@@ -1,0 +1,624 @@
+{
+  "data": {
+    "images": [
+      "Oracle-Linux-7.6"
+    ],
+    "kubernetes-versions": [
+      "v1.31.1",
+      "v1.31.10",
+      "v1.32.1",
+      "v1.32.10",
+      "v1.33.0",
+      "v1.33.1",
+      "v1.34.0",
+      "v1.34.1",
+      "v1.34.2"
+    ],
+    "shapes": [
+      "BM.Optimized3.36",
+      "BM.Standard.A1.160",
+      "BM.Standard.E2.64",
+      "BM.Standard.E3.128",
+      "BM.Standard.E4.128",
+      "BM.Standard.E5.192",
+      "BM.Standard.E6.256",
+      "BM.Standard2.52",
+      "BM.Standard3.64",
+      "VM.Optimized3.Flex",
+      "VM.Standard.A1.Flex",
+      "VM.Standard.A2.Flex",
+      "VM.Standard.E2.1",
+      "VM.Standard.E2.2",
+      "VM.Standard.E2.4",
+      "VM.Standard.E2.8",
+      "VM.Standard.E3.Flex",
+      "VM.Standard.E4.Flex",
+      "VM.Standard.E5.Flex",
+      "VM.Standard.E6.Flex",
+      "VM.Standard2.1",
+      "VM.Standard2.16",
+      "VM.Standard2.2",
+      "VM.Standard2.24",
+      "VM.Standard2.4",
+      "VM.Standard2.8",
+      "VM.Standard3.Flex"
+    ],
+    "sources": [
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaalebaahyczf6u37qozlphfffpvoobvyzb55lg6fanpdysiepl2x3q",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.11.20-0-OKE-1.34.2-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaa3o2eq3ww44e3opvukzaaaxwc6jrx6e7ddavfhnhu4d3tvhwukea",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.11.20-0-OKE-1.33.1-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa5zwjlh33x6yoyfrk7aqk35hfrfnhqnmqxvcv6zulucbjk42qz5ca",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.11.20-0-OKE-1.32.10-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaonlceex3d3vqd6aqlde33qnmxzooyav65gmyf25yhwalolcz6uea",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.09.16-0-OKE-1.34.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa36xglmox2wkyar7vsie6nmactrxzg3u6spbfnuzjkty7wipurcna",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.09.16-0-OKE-1.33.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa7lyw3k2xvdck6lzhfnk5zyevcu5moigmfv6kcs7t5kajazyvwhka",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.09.16-0-OKE-1.32.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaag5bs7wghnwvl6cdnqrxmq7wgwwt2n6paxl43dc2jzl5rih3ircwa",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.09.16-0-OKE-1.31.10-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaalhnobibbxktl3rltlh726a3ou3buwf3lcxqwstfkppxdxqso5rma",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.08.31-0-OKE-1.34.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaa4uavpmnefthsevg7pfsufya3pj3wxkhjcpjqljuqrhzwlga4lwa",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.08.31-0-OKE-1.33.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaabkqyndcuazuichenbexakmlowuoa3igdmkqcykzs77czc5a3vsga",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.08.31-0-OKE-1.32.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaxvlo2g6ddrlytxk7bfwwkkhxufgzgr4irf32ccrlifxg4p7eqquq",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.08.31-0-OKE-1.31.10-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaroseuzq5dvuev5sovvtkfcw2o3hkm4pk64s6oqt3my27udcmncdq",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.07.21-0-OKE-1.32.1-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa4wnopzzjoz7xv72pbo7dlw3kyjiarac4uhkkweom7ywbeer52beq",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.07.21-0-OKE-1.31.10-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaabuvqqzlgf4lktg2hty5sdlebmghe23fagyoefdxvnuhkqhjptlhq",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.05.19-0-OKE-1.31.1-804",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaacvquisyrvorvmontwiibfhrmvly4gwueowwkmwmounuk7w6ngz4q",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.05.19-0-OKE-1.31.1-764",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa656dtemabqn7tmdf4ud52kucvbpmwcgv6sljruftuqqp62gfr5dq",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.02.28-0-OKE-1.31.1-760",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaayti6os67m3s7jqweu4imvutlup4r27ikfygpvpnj4ge5lz4ma5ga",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.11.20-0-OKE-1.34.2-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaamabo6gd7psvmynt6geydyuxsccnl22gmkrht37bc6zziasfhmzdq",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.11.20-0-OKE-1.33.1-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa6h74hygn5a5jtstfh77dw3iqvnq34yoqyjzw2o5qijdzktvvcqna",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.11.20-0-OKE-1.32.10-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaces7hsxqnzbok3j6kbpbq7zfiskf3t6oqe43oogjl4lyzkk66qgq",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.09.16-0-OKE-1.34.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaz24dwbhfckzkkz4kxvijqz7memk7jn4sig4duvlhkv43rhnz3c4a",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.09.16-0-OKE-1.33.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaazn76q74uoqk7mh66fxmnfyouzxabaa37yctwijgq6eet27f34rca",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.09.16-0-OKE-1.32.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaabpdqse5nkstfp57de5qjuzu5xxlywhejud3he2xeintrb2ymclmq",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.09.16-0-OKE-1.31.10-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaptcgq7c5dcoz7yfxt2waospl2kiiuh47jbg6xctxq45kot2ospyq",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.08.31-0-OKE-1.34.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa2lnduwfxyloosvc3qn47b3ns3vdcqtv32ul4636iqi4cxk4sdufq",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.08.31-0-OKE-1.33.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaacq63p377y3j3zk7x5hxifeahkw5xuo27lrcimmd5gbsjboa7d3bq",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.08.31-0-OKE-1.32.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaadh6wj6vkyuembjj4nzvsajqdxwgg7o5lsmqfe2vkxws2tn2np52q",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.08.31-0-OKE-1.31.10-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaan4wz4qfsx2j3jvqoxgs4dbnqzsfyvbbgyye2plzl3lzjpnomifpa",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.07.21-0-OKE-1.32.1-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa22exnoucnmc3ct3nbyfep4qvnsxt6gmm2jhjbdikrnq3j7qmlgeq",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.07.21-0-OKE-1.31.10-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa3yoe2mjfdpnukqqrw22hfto65dlxduka4cnab6l3uyp25p6avb6a",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.05.19-0-OKE-1.31.1-804",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaams5gpzgqwxo4hjstri4pt33m4zzcqsoex5bdt252ya7skdb62mka",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.05.19-0-OKE-1.31.1-764",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaajex7fvcmee2r6h37abred3nynmaplcmkmr2c7hw4eafh6c6l2dqq",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.02.28-0-OKE-1.31.1-760",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaahstqtl6uorxo4hp75micvdmqastqtf537t6r56hws3lfwocb272q",
+        "source-name": "Oracle-Linux-8.10-2025.11.20-0-OKE-1.34.2-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa72hvqvskjg6s543xdajkrlmbk6wiye3g7nrx6zyhd2gzbjdso7na",
+        "source-name": "Oracle-Linux-8.10-2025.11.20-0-OKE-1.33.1-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa7qjp5vvqoye4q4ah6ibjix2yyh34lrjq7ayqargtmmj7r6apqrea",
+        "source-name": "Oracle-Linux-8.10-2025.11.20-0-OKE-1.32.10-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaimgujc42ah2xhpic57igjhtn3o6mxbm65wknjfcvcw4oxlh372bq",
+        "source-name": "Oracle-Linux-8.10-2025.09.16-0-OKE-1.34.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaiycdlrwxs6zmlm5yifnb3gx43xpwmp3oivq7hpyule7f4mlqshzq",
+        "source-name": "Oracle-Linux-8.10-2025.09.16-0-OKE-1.33.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaqj4hmid7bbbxs2ayv2p3jl4op4e7qzc6vkcuvwl3gl2jkhjekbsq",
+        "source-name": "Oracle-Linux-8.10-2025.09.16-0-OKE-1.32.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaas2kcsdhylkllqvdhvcq5kzgfviazinw32lpep465yuiugzaz3xyq",
+        "source-name": "Oracle-Linux-8.10-2025.09.16-0-OKE-1.31.10-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaandaqxmmmdqmk5hmwnuakvzlffnoidqlvse5wz425onl5avneabdq",
+        "source-name": "Oracle-Linux-8.10-2025.08.31-0-OKE-1.34.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaah37aip5dprcvqj47is3xhtql5yjtw4fj4psivg4pf54jscoj6xtq",
+        "source-name": "Oracle-Linux-8.10-2025.08.31-0-OKE-1.33.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaajm6jvlhaju3ilea2aptq7geok5tphyujmpgxoemnuwmr5oaptwxq",
+        "source-name": "Oracle-Linux-8.10-2025.08.31-0-OKE-1.32.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaajx647z4y6tdwlr3a3ejg5woxw2vm2ytbj73pujeezy5hbucfdz6a",
+        "source-name": "Oracle-Linux-8.10-2025.08.31-0-OKE-1.31.10-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa5xfc7bcpzd2kank2okyqh47mirwpjwu4zqffrlgpha5dj75criaq",
+        "source-name": "Oracle-Linux-8.10-2025.07.21-0-OKE-1.32.1-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaocl4e5wgbfv5ueu4jhr5f3d7hclo4hs6kko5zkfu5mirp4vl5z7a",
+        "source-name": "Oracle-Linux-8.10-2025.07.21-0-OKE-1.31.10-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa36fmbuuww5w6g5yqh6pd5hjrdjzn2dzip6dikaxuvgfye3gmqsiq",
+        "source-name": "Oracle-Linux-8.10-2025.05.19-0-OKE-1.31.1-804",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa3sm5dbg3uma64bkmlakhd2i3cyvgwkubp5hqfulhdoyogrlxq7ca",
+        "source-name": "Oracle-Linux-8.10-2025.05.19-0-OKE-1.31.1-764",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa4ceb223vdy6ysys2bcdo5suqkwrxpjs3hqikhzwuixmwmeoozykq",
+        "source-name": "Oracle-Linux-8.10-2025.02.28-0-OKE-1.31.1-760",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa3f7lmupvhfi53q4wlnhxgra4d6iszh6skimcepuoro26mncn5xna",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.34.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa25pduvgfbf7qgfai6jgya4rllaeqp6broirlg4oz65h32hs2pjbq",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.34.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaalqk7dkpkxiq3kuf33obm574jc4swxbnds54udfrq5fmc4yzwlefa",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.33.1-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaazyqb2z6ulx3sqiz5nhvp5vbyh5ngxixqfkl7btirbjabgd7wnfia",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.33.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaawwtarnnws3jxyjalo7yflhpjlmnx6iuzoacauamcptky5iqocjaq",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.33.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaygjnuvkjnbv5aty65puoclldh4jq4udh6lljznlei2tbcxtb23bq",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.32.1-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaawq24njiaadpewxmwf3qy4vftcqfixvbde2ymt277gaadsxuh4efq",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.32.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa37ftkhxoq6hpxqegxabotkqw362ji7fuuj2vedhto6zplm3sfr6a",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.32.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaavwtzf23chxfswrw74lq7wwd4omya6qzark5wvpge5viks3mc4jq",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.31.10-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaqxxg5ee5cqqx3kcrmfyn5ry6m573puxrefqvrct3mulxoxqz5smq",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.31.10-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa456ow6otjzbalxkxjxbi4mmm2kp7yo2lcatz677enpgqjjmji2ga",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.31.10-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaadpvifarotcugt4pwm7sumgkkwcnnre5keyrxblrnyfbvgqubyloa",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.31.1-804",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaarctflh5jsnqeavznbuikl6xaixghse3jidawe4lwl4g72jnaq5ba",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.31.1-764",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaizcyuv4l6ly567hb63edbb7cxl25khk45pauieb6xcjeumy3me4q",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.31.1-760",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaagaonovxbz5rmno6gqdevnreoabwvdyms254veudnnzlso4xhedq",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.34.2-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaqjztue6vz6tn6nobmz4yg753i4esyrzedqzqf2d3zwz7wkhncmga",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.34.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaga7ekqkhj5tplhtw6v5heqg5mhrhuubyehke4zaipqco4mg5txxa",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.34.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaakscvuu4gzjwqijsg5vkcuvqstzyk457wkzb6pou6wtnzecsgvvka",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.33.1-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaarc2yiif7ovxn4sxqcbicdr5b653lucvztv5my5yngfk4qmn2zvpa",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.33.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaatqwgci2fpqercjdfptn43we4ln7nxxwmg2yvdogvpdf5wbijjzlq",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.33.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaitpxznx5ku35ailw43w5oxq2arimv2kxaumeixrhwlc3ejrbrvia",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.32.10-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaan3ypbh4s7orym5plxb6dvfsiov76dcc4zmbokxnilit2jiwonea",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.32.1-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaxemn57jg2es763ozdjdhk7ywjq2icokd3bdutnamvhqwrdc6ie2a",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.32.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaakbpdzaenztnmqlrqb4mch6guxb6htil3uyhv4auzeplqndfmouka",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.32.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa3hgvlvalmxwerg7sj3shullkjl256ptv5brvqllukgc2gkqcxr2a",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.31.10-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaerw2j47tbspmygcyhdocnzh2jxpshstzqi4q3a5dfkqicvjtb3ia",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.31.10-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaan7nwet4wjcuwoocwgptekzjovcyuvwue7xad5jlfnad3l3mjoota",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.31.10-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaajdauf2cfyrvjub7bifhmlmbtnqaflj32c27cnfclu3skdkfv7ga",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.01.31-0-OKE-1.31.1-804",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaqusts2masef443rgf5qq3ovi64dfksma3qwbysxjctb43xpvtuqa",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.01.31-0-OKE-1.31.1-764",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaa4fzgkoguspycjlpcgqo7bafipmyworf23piuclrabbhcipbjdda",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.01.31-0-OKE-1.31.1-760",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaasvuqra3h3ejdksaeycxvaa7dewcl7a4xsxk725emcege2dccyr6a",
+        "source-name": "Oracle-Linux-7.9-2025.10.23-0-OKE-1.34.2-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaijhnjyikc465rx5orjd4sx5wxfovywhbihaj2alj2ng4a6lbp3ca",
+        "source-name": "Oracle-Linux-7.9-2025.10.23-0-OKE-1.33.1-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaao3q4n4ejgyqcffvmffh5ied7frnzmbme3umgdlzwe67v2dqp6bha",
+        "source-name": "Oracle-Linux-7.9-2025.10.23-0-OKE-1.32.10-1345",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaafod6xf2zv3w4itj2s7wqdttabeitvcbpsdez4yjng6i55cpi6qgq",
+        "source-name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.34.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa6dxf2hb634phdadj5bky6u4h2khqqoya6uhyegzqcbqrbngkahtq",
+        "source-name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.34.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa6nlufy2pnfgsyvf3cxz75vnn66zeufyhipnsezhef7gazg6nx4ia",
+        "source-name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.33.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaenzy6lyecxzbw2lvtzskm225gemd3ag6tq5z7cplixcydtk4kuwq",
+        "source-name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.33.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaayutkalj53o3vxnysysmk5ocp4vytcxluyw6utpzuenufykkbgs5a",
+        "source-name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.32.1-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaam2lmnbyz4wb5ilc7pvkjrjskjlpgdtr465wfj7sqpzyj7ak6nbuq",
+        "source-name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.32.1-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaac5s25zkicv7pjznghyq3w4xwjhlvi4qo365bik6q36sibkzpigpa",
+        "source-name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.32.1-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaanjgyz5yifco2s5c5oa6b5nlykjk5uo4bw2652if5s54srjiiz6za",
+        "source-name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.31.10-967",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaar4ya4cptkxy3xbxmpoydy5usswz2z7gkjtev3jzsft62zbheim3q",
+        "source-name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.31.10-1330",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaawc4oag5jwnggk5cws2354rke6b2s5dna5u4vfxltkz3n4kezoqzq",
+        "source-name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.31.10-1191",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaalvcvncx45ycvchz5owf2nvgjcdrqscx3g7mbtydxtgbyl57l7poa",
+        "source-name": "Oracle-Linux-7.9-2025.04.16-0-OKE-1.31.1-804",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa43ldpf6zjjge5lnqhy3xj6pujbg7pu2lfp5sbryklsbv76voiosq",
+        "source-name": "Oracle-Linux-7.9-2025.04.16-0-OKE-1.31.1-764",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaz2uczhbxxtkdjvyzuwgvzns6c5sbvpo2lbrkxvyj3be7rtxbw6ra",
+        "source-name": "Oracle-Linux-7.9-2025.01.31-0-OKE-1.31.1-760",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa6uuplga6leh3tk77ktcphjel6hv2skhvdi6oybyg4gjazigd7fma",
+        "source-name": "Oracle-Linux-8.10-aarch64-2026.01.29-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaakmqxqb6u3xc46ci2wwxazposy4a4hwdhpnwufldpruxe5bjmml6q",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.11.20-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaypnqgn7pyzqdvb5wwryazax3ccqvccdqxjoksezkc44udqd3wiiq",
+        "source-name": "Oracle-Linux-8.10-aarch64-2025.10.23-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaqaae55jjj7hm5skponc5joit6vruacu6pzaxebgxlwt3mm6ec7hq",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2026.01.29-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaakqdvsgbh6cbkvs5pzheu5cjr65ckb2rhuhj4ggyborxh5q6vrg3q",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.11.20-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa623jrnbobypbotitdkdsxj5ttvh2yw4eldokzyyahofiimazywnq",
+        "source-name": "Oracle-Linux-8.10-Gen2-GPU-2025.10.23-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaiyozghbprd7xiu5uwuumcdkk2tvgalcarrx6aelfcwv2sutfqatq",
+        "source-name": "Oracle-Linux-8.10-Gen2-AMD-GPU-2025.08.31-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaadfhgbbbhro4jz3cbivcut7hfafviyqdnxzjnjys6xz2nvmfefzca",
+        "source-name": "Oracle-Linux-8.10-Gen2-AMD-GPU-2024.08.31-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaapidugmq5lfuldp6xx5t6v3fpmrzmpqzjpjo5xvcpz2bxe4jxwxva",
+        "source-name": "Oracle-Linux-8.10-2026.01.29-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaamhtethlerkmvmf3llms33dqsqaxvunma3pskemo2cnnx675sc3uq",
+        "source-name": "Oracle-Linux-8.10-2025.11.20-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaazrsga2m7iwtggixes6nhi3tu3j63y3ylvyv2pm43qumf3w5c52yq",
+        "source-name": "Oracle-Linux-8.10-2025.10.23-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaayfm54f4yxyeh3uualbcxtwlikuhw7n53e5fdgmqynmleeu5ml6wa",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.11.30-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaatfhyd6ibsskaevj4qoqiijhvc4ip36wr2mckfzyd4mrtjnso5i6a",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.10.31-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa4vscj2ev2skccbxtktqee2fgwdlm7evaevc3dpho7sv7isfdr7ea",
+        "source-name": "Oracle-Linux-7.9-aarch64-2024.09.30-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa4u37vkcirury77rzgarjwq6khxr6ycefrvzybfer4qqsboijiabq",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaatidk3xeexpqgdwcmwl45mk3v3lb7omzf6s3xnhxbjcamc4cir63a",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2025.01.31-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaanxp7ltf37g4fpljnlkmvj72sfrscqetmctdqjzd33xovmuec7gq",
+        "source-name": "Oracle-Linux-7.9-Gen2-GPU-2024.11.30-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaaircr7waiuso4avtmla77me7qn3d5apn6oh5f2et6ocztudqsxuhq",
+        "source-name": "Oracle-Linux-7.9-2025.10.23-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaahbm5sehi7xgmxc44lbbph7dea3m6l5ipoyowd7spmtnzmsqqfz3q",
+        "source-name": "Oracle-Linux-7.9-2025.07.21-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa3meu4uqtlhrpxebhog45gcpmbjfuf3ewcgemxiqneacpqzrv7blq",
+        "source-name": "Oracle-Linux-7.9-2025.04.16-0",
+        "source-type": "IMAGE"
+      },
+      {
+        "image-id": "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa56iaqw7d5yiwwkyba6f3dwygyk7oaujo2ajmqqfgf7mmcf3kirea",
+        "source-name": "Oracle-Linux-7.6",
+        "source-type": "IMAGE"
+      }
+    ]
+  }
+}

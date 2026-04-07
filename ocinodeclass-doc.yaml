@@ -1,0 +1,31 @@
+apiVersion: oci.oraclecloud.com/v1alpha1
+kind: OCINodeClass
+metadata:
+  name: my-ocinodeclass
+  namespace: karpenter
+spec:
+  shapeConfigs:
+    - ocpus: 2
+      memoryInGbs: 8
+    - ocpus: 4
+      memoryInGbs: 16
+    - ocpus: 4
+      memoryInGbs: 32
+    - ocpus: 6
+      memoryInGbs: 64
+  volumeConfig:
+    bootVolumeConfig:
+      imageConfig:
+        imageType: OKEImage
+        imageFilter:
+          osFilter: "Oracle Linux"
+          osVersionFilter: "8" #refer to ImageConfig section above to find an compatible OKEImage
+          #imageId: ocid1.image.oc1.us-chicago-1.aaaaaaaansa7kurj3xt4v7vtgoafmlo65hn6ewiriagxp4mooxzu77bnwhwq
+  networkConfig:
+    primaryVnicConfig:
+      subnetConfig:
+        subnetId: ocid1.subnet.oc1.us-chicago-1.aaaaaaaaxiqllzu5kkxvlbcqepmyy5av25ofw7bausqt63uatkz2ttzcb45q  
+    secondaryVnicConfigs:
+      - subnetConfig:
+          subnetId: ocid1.subnet.oc1.us-chicago-1.aaaaaaaaxiqllzu5kkxvlbcqepmyy5av25ofw7bausqt63uatkz2ttzcb45q 
+        ipCount: 16
